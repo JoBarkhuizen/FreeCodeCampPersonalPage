@@ -1,14 +1,13 @@
 /* responsive.css  */
 
-500 to 960 pixels 
+/* 500 to 960 pixels */ 
 @media screen and (min-width: 31.25em){
     nav ul li {
         width: 33%;
-     }
+      }
     h1 {
         margin-top: 50px;
     }
-    
     #col1 {
             width: 43%;
     }
@@ -26,18 +25,15 @@
         width: 30%;
         margin: .5em 1em 1em 0;
     }
-    div.wrapper {
+   /* div.wrapper {
         min-width: 600px;
-    }
+    }*/
     }
    
      /* under 500px */
 @media screen and (max-width: 31.25em){
     header {
         display: none;
-        /*font-size: 48px;
-        padding: 0;
-        text-align: center;*/
     }
 
     /* Show Hamburger */
