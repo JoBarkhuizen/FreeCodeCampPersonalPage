@@ -7,40 +7,34 @@ body {
 	margin: 0px;
 	
 }
-div .wrapper {
-	max-width: 1220px;
+div.wrapper {
+	max-width: 1000px;
 	margin: 0 auto;
 	padding-top: 0px;
-	height: 100vh;
-}
-
-#welcome-section {
-	margin-top: 20px;
-	
 	}
-
-	#navbar {
+	
+#navbar {
 		overflow: hidden;
 		background-color: #333;
 		position: fixed;
 		top: 0;
 		width: 100%;
 	}
-	/* Hide Hamburger Menu */
-	#navbar label, #hamburger {
+/* Hide Hamburger Menu */
+#navbar label, #hamburger {
 	display: none;
 	}
-	nav ul {
+nav ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 	  }
 	  
-	  li {
+li {
 		float: left;
 	  }
 	  
-	  li a {
+li a {
 		display: block;
 		color: white;
 		text-align: center;
@@ -49,12 +43,13 @@ div .wrapper {
 	  }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+li a:hover {
 	background-color: #111;
   }
 
 header { 
 	margin-top: 0px;
+	margin-bottom: 0px;
 	background-image: url(20190808_170046.jpg);
 	background-repeat: repeat-x;
 	position: bottom;
@@ -62,10 +57,21 @@ header {
 	width: 100%;
 }
 
+#welcome-section {
+	margin-top: 0 auto;
+	height: 100vh;
+	text-align: center;
+	}
+
+#office-img {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+        text-align: center;
+	}
 
 section {
-	margin-left: 10px;
-	
+	margin: 0 auto;
 }
 
 #col1 {
@@ -74,7 +80,7 @@ section {
 	margin: 1em 0em 1em 0.5em;
 }
 
- #col2 {
+#col2 {
 	float: left;
 	width: 30%;
 	margin: 1em 2em 1em 2em;
@@ -85,12 +91,18 @@ section {
 	width: 30%;
 	margin: 1em 1em 1em 0em;	
 }
+.resume {
+	margin-left: 10px;
+}
+.btns{
+	text-align: center;
+}
 footer {
 		clear: both;
 		}
 footer h3 {
 	font-family: 'Love Ya Like A Sister', georgia;
-	background-color: #94d4ff;
+	background-color: #8b4513;
 	padding: .5em 0 .5em .5em;
 	background-repeat: repeat-x;
 	position: bottom;
