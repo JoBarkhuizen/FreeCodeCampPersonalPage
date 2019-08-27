@@ -5,8 +5,12 @@
 body {
 	font-family: arial;
 	margin: 0px;
-	
 }
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
 div.wrapper {
 	max-width: 960px;
 	margin: 0 auto;
@@ -54,7 +58,6 @@ header {
 	margin-bottom: 0px;
 	background-image: url(20190808_170046.jpg);
 	background-repeat: repeat-x;
-	position: bottom;
 	height: 200px;
 	width: 100%;
 }
@@ -84,7 +87,7 @@ h2 {
 	align-items: center;
 }
 section {
-	margin-left: 0 auto;
+	margin-left: 0;
 
 }
 
@@ -105,6 +108,9 @@ section {
 	width: 30%;
 	margin: 1em 1em 1em 0em;	
 }
+.resume{
+	clear: both;
+}
 .btns {
 	text-align: center;
 }
@@ -116,7 +122,6 @@ footer h3 {
 	background-color: #8b4513;
 	padding: .5em 0 .5em .5em;
 	background-repeat: repeat-x;
-	position: bottom;
 	text-align: center;
 }
 
